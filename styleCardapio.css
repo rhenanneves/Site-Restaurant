@@ -1,0 +1,184 @@
+body {
+    background-image: url(https://img.elo7.com.br/product/zoom/E14D38/papel-de-parede-madeira-bege-escuro-1414-quarto.jpg);
+}
+
+.navbar {
+    background-color: rgb(72, 40, 40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(255, 155, 6, 0.694);
+    height: 80px;
+    margin-top: 0;
+}
+
+
+.navbar img {
+    display: flex;
+    justify-content: flex-start;
+    width: 10vh;
+    height: 70px;
+    width: 90px;
+    margin-left: 5px;
+
+}
+
+
+.navbar-center {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 4px 2px 2px black;
+
+}
+
+.nav-footer2 {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-shadow: 4px 2px 2px black;
+}
+
+.nav-footer a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+
+}
+
+.container-footer p {
+    color: white;
+    margin-top: 50px;
+
+}
+
+.container-footer {
+    background-color: rgb(72, 40, 40);
+    width: 100%;
+    position: absolute;
+
+}
+
+.container-card {
+    background-image: url(img/lanche\ \(2\).jpg);
+    background-size: cover;
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 2px 2px black;
+}
+
+.container-card h1 {
+    text-shadow:1px 2px 2px rgb(248, 248, 248);
+    font-family: 'Bungee Spice', cursive;
+}
+
+.card {
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 2px 20px rgb(64, 0, 0);
+}
+
+.navbar-lanches {
+    background-color: rgb(255, 208, 0);
+    height: 40px;
+    margin-top: 5px;
+    box-shadow: 1px 2px 2px rgb(255, 132, 0);
+}
+
+.navbar-lanches h2 {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 2px 2px rgb(255, 132, 0);
+}
+
+.col {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.card {
+    color: white;
+    width: 18rem;
+}
+
+.card-footer {
+    background-color: rgb(245, 245, 245);
+    border-top: none;
+
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.card-body h4 {
+    text-align: center;
+}
+
+.card-body p {
+    text-align: center;
+}
+
+.botao {
+    border: none;
+    background-color: yellow;
+    font-family: 'Lobster', cursive;
+    height: 40px;
+}
+
+.navbar-porcoes {
+    background-color: rgb(255, 208, 0);
+    height: 40px;
+    margin-top: 5px;
+    box-shadow: 1px 2px 2px rgb(255, 132, 0);
+}
+
+.navbar-porcoes h2 {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 2px 2px rgb(255, 132, 0);
+    box-shadow: 1px 2px 2px rgb(255, 132, 0);
+}
+
+.navbar-bebidas {
+    background-color: rgb(255, 208, 0);
+    height: 40px;
+    margin-top: 5px;
+    box-shadow: 1px 2px 2px rgb(255, 132, 0);
+}
+
+.navbar-bebidas h2 {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 2px 2px rgb(255, 132, 0);
+    box-shadow: 1px 2px 2px rgb(255, 132, 0);
+}

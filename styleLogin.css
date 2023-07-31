@@ -1,0 +1,130 @@
+body {
+    background-image: url(https://img.elo7.com.br/product/zoom/E14D38/papel-de-parede-madeira-bege-escuro-1414-quarto.jpg);
+}
+
+.navbar {
+    background-color: rgb(72, 40, 40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(255, 155, 6, 0.694);
+    height: 80px;
+    margin-top: 0;
+}
+
+
+.navbar img {
+    display: flex;
+    justify-content: flex-start;
+    width: 10vh;
+    height: 70px;
+    width: 90px;
+    margin-left: 5px;
+
+}
+
+
+.navbar-center {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 4px 2px 2px black;
+}
+
+.nav-footer2 {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-shadow: 4px 2px 2px black;
+}
+
+.nav-footer a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+
+}
+
+.container-footer p {
+    color: white;
+    margin-top: 50px;
+
+}
+
+.container-footer {
+    background-color: rgb(72, 40, 40);
+    width: 100%;
+    position: absolute;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Lobster', cursive;
+    text-shadow: 4px 2px 2px rgb(255, 255, 255);    
+    
+}
+
+/* Estilos para o formulário */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 4px 2px 20px black;
+}
+
+/* Estilos para os campos de entrada (input) */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+
+/* Estilos para o botão de envio (submit) */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+p a {
+    color: #007bff;
+}
+
+/* Estilos para o link "Faça login" na página de cadastro */
+p a:last-child {
+    color: #007bff;
+}

@@ -1,0 +1,70 @@
+body {
+    background-image: url(https://img.elo7.com.br/product/zoom/E14D38/papel-de-parede-madeira-bege-escuro-1414-quarto.jpg);
+}
+
+.navbar {
+    background-color: rgb(72, 40, 40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(255, 155, 6, 0.694);
+    height: 80px;
+    margin-top: 0;
+}
+
+
+.navbar img {
+    display: flex;
+    justify-content: flex-start;
+    width: 10vh;
+    height: 70px;
+    width: 90px;
+    margin-left: 5px;
+
+}
+
+
+.navbar-center {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 4px 2px 2px black;
+
+}
+
+.nav-footer2 {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-shadow: 4px 2px 2px black;
+}
+
+.nav-footer a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+
+}
+
+.container-footer p {
+    color: white;
+    margin-top: 50px;
+
+}
+
+.container-footer {
+    background-color: rgb(72, 40, 40);
+    width: 100%;
+    position: absolute;
+
+}
